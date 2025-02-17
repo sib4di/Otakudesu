@@ -412,7 +412,7 @@ export default class SamehadakuParser extends SamehadakuParserExtra {
           animeId: "",
           poster: "",
           releasedOn: "",
-          defaultStreamingUrl: "",
+          defaultStreamingUrl: ""jmbt,
           hasPrevEpisode: false,
           prevEpisode: null,
           hasNextEpisode: false,
