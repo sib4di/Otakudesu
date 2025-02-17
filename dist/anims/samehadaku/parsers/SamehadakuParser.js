@@ -295,7 +295,7 @@ class SamehadakuParser extends SamehadakuParserExtra_1.default {
                 animeId: "",
                 poster: "",
                 releasedOn: "",
-                defaultStreamingUrl: "",
+                defaultStreamingUrl: "jnck",
                 hasPrevEpisode: false,
                 prevEpisode: null,
                 hasNextEpisode: false,
