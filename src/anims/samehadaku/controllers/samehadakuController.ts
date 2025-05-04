@@ -179,7 +179,7 @@ const samehadakuController = {
       const { episodeId } = req.params;
       const originUrl = `${req.headers["x-forwarded-proto"] || req.protocol}://${req.get("host")}`;
       const data = await parser.parseAnimeEpisode(episodeId, originUrl);
-
+bro s
       res.json(generatePayload(res, { data }));
     } catch (error) {
       next(error);
