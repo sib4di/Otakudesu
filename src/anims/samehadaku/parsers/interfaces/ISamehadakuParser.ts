@@ -87,7 +87,6 @@ export interface AnimeEpisode {
   hasNextEpisode: boolean;
   nextEpisode: ISPE.NavEpisodeLinkCard | null;
   downloadUrl: { formats: Format[] };
-  synopsis: ISPE.Synopsis;
   genreList: ISPE.GenreLinkCard[];
   recommendedEpisodeList: ISPE.AnimeCard5[];
   movie: {
