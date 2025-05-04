@@ -80,9 +80,6 @@ export interface AnimeDetails {
 
 export interface AnimeEpisode {
   title: string;
-  animeId: string;
-  poster: string;
-  releasedOn: string;
   defaultStreamingUrl: string;
   server: { qualities: Quality[] };
   hasPrevEpisode: boolean;
