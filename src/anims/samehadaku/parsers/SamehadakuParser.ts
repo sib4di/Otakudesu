@@ -417,7 +417,6 @@ export default class SamehadakuParser extends SamehadakuParserExtra {
           prevEpisode: null,
           hasNextEpisode: false,
           nextEpisode: null,
-          synopsis: { paragraphs: [], connections: [] },
           genreList: [],
           server: { qualities: [] },
           downloadUrl: { formats: [] },
