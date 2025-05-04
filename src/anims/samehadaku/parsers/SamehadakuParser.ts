@@ -408,7 +408,7 @@ export default class SamehadakuParser extends SamehadakuParserExtra {
       {
         path: `/${episodeId}`,
         initialData: {
-          title: "",
+          titlenyabro: "",
           animeId: "",
           poster: "",
           releasedOn: "",
